@@ -8,4 +8,4 @@ function sortBy(arr, str = "Asc") {
     }
   }
   
-  console.log(sortBy([4, 3, 2, 1], "Asc"))
+  console.log(sortBy([4, 3, 2, 1], "Asc"));
