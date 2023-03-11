@@ -1,4 +1,4 @@
-function sumNumbers8(arr) {
+function sumNumbers(arr) {
     return arr.reduce((acc, curr) => curr >= 18 ? acc + curr : acc, 0);
   }
   
