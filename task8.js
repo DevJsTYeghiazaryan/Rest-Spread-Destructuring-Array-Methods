@@ -1,13 +1,14 @@
 function parseInteger(arr) {
     return arr.map(str => {
-      const parsed = parseInt(str);
-    //   return isNaN(parsed) ? null : parsed;
-    if(isNaN(parsed)){
+      const parsed = parseInt(str)
+      if (isNaN(parsed)) {
         return null;
-    }else{
+      } else {
         return parsed;
-    }
-    });
+      }
+  
+    })
   }
-
-  parseInteger(["1", "px", "2323"]);
+  
+  
+  console.log(parseInteger(["1", 7, "2323"]))

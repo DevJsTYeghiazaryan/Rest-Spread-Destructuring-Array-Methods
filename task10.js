@@ -1,5 +1,5 @@
 function filterUsers(users) {
-    return users.filter((user) => user.lang !== "ru");
+    return users.filter((user) => user.lang !== "ru")
   }
 
   const users = [
@@ -11,7 +11,7 @@ function filterUsers(users) {
     username: "Nil Armstrong",
     lang: "ENG",
     },
-];
+]
 
 
-console.log(filterUsers(users)) // [{ username: "Nil Armstrong, lang: "ENG" }]
+console.log(filterUsers(users)) 
